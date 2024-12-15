@@ -1,1 +1,5 @@
 # PACE3-Hibernate-
+La meua PACE3 és sobre bussejadors, amb l'equip que gasta cadascú, els masters que fa i els llocs que visita. He fet tres relacions, el bussejador amb l'quip que té que és 1:1. Els masters amb els bussejadors que cursen eixe master que és la 1:N. I els bussejadors amb els llocs que visiten N:M. 
+Dins de la carpeta del projecte adjunte el script per crear les taules i la imatge amb les relacions inicials.
+He fet un menú en el qual es pot seleccionar quina operaació CRUD es vol dur a terme. I dins de cada opció hi ha un altre menú on pots elegir sobre quina taula vols fer-ho. 
+En l'insert es pot insertar cada entitat amb els seus atributs. En el delete podem eliminar cada una d'elles (En els bussejadors he tingut algun problema i no he conseguit que funcione). En el update pots modificar cada atribut de cada entitat. I en el select mostrar cada objecte de cada taula. En el select de bussejadors també tinc l'opció de mostrar tots els llocs de busseig de cada bussejador.
